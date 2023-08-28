@@ -13,3 +13,6 @@ with open('datasets/RecurrenceOfSurgery_regression_quest.pkl', 'rb') as regressi
     result_predict = loaded_model.predict(input_labels)
     print('Predict 연령 Result : {}'.format(result_predict))
     pass
+
+#array([38.73402922])
+# Predict 연령 Result : [40.23287972]

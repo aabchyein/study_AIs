@@ -14,4 +14,4 @@ with open('datasets/BreastCancerWisconsin_regression_quest.pkl', 'rb') as regres
 
 # 임의로 10번째 레코드의 값 넣기: radius_worst, perimeter_worst, area_worst
 #                                 19.19, 123.8, 1150.0	
-# Predict Diagnosis Result : ['M']
+# Predict Diagnosis Result : [0]

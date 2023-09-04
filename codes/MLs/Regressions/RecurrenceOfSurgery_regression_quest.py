@@ -1,5 +1,5 @@
 # 사용자에게 입력받은 설명변수 값 3개를 변수에 담기
-# 체중, 수숡시간의 D.type이 float 형식
+# 체중, 수술시간의 D.type이 float 형식
 # input() return str() -> int() or float()
 height = int(input('신장'))
 weight = float(input('체중'))

@@ -6,5 +6,5 @@
 - ![image](https://github.com/aabchyein/study_AIs/assets/132973368/4c11c931-ea18-40d7-aacf-628f09745d57)
 <br>
 
-## 방식
+## 🔥방식
 - ![image](https://github.com/aabchyein/study_AIs/assets/132973368/e36b64ae-505d-41de-82f9-04b42521c89a)

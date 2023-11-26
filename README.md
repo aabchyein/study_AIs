@@ -8,7 +8,8 @@
 |<img src="https://github.com/aabchyein/study_AIs/assets/132973368/4c11c931-ea18-40d7-aacf-628f09745d57" width="700" height="200">|<img src="https://github.com/aabchyein/study_AIs/assets/132973368/e36b64ae-505d-41de-82f9-04b42521c89a" width="650" height="200">|
 ## 📄데이터 분석 기초
 #### 1. 지도학습
-- Logistic Regression
+: 입력 데이터와 그에 대응하는 출력과의 관계를 학습하는 머신러닝의 한 분야
+- Logistic Regression(로지스틱 회귀) : 이진 분류 문제에 주로 사용되며, 예를 들어 고객이 제품을 구매할지 여부, 이메일이 스팸인지 아닌지 등을 예측하는 데 사용
 
 |분류|주요내용|작성|비고|
 |---|---|---|---|
@@ -16,10 +17,15 @@
 |지도학습<br>이진분류|accuracy_score<br>classification_report<br>오차 행렬(confusion matrix)|[evaluation](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_evaluation.ipynb)||
 |지도학습<br>다항분류|tree방식으로 모델학습|[Tree](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_Tree.ipynb)||
 |회귀분석 평가|OneHotEncoding<br>Scaling-MinMaxScaler|[scaling/encoding](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_scaling_encoding.ipynb)||
-- Logistic Regression
+- Linear Regression(선형 회귀) : 연속형 값을 예측하는 데 사용. 예를 들어, 주택 가격, 온도, 판매량 등과 같은 연속형 값을 예측하는 데 효과적
+
+|분류|주요내용|작성|비고|
+|---|---|---|---|
+|지도학습<br>이진분류|전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
 
 #### 2. 비지도학습
-- 
+: 비지도 학습에서는 출력(레이블)이 없는 데이터에서 숨겨진 구조나 패턴을 발견
+- Clustering (클러스터링) : 유사한 특성을 가진 데이터 포인트들을 그룹화하여 서로 다른 클러스터로 나눔. 데이터 내에서 비슷한 패턴이나 특성을 공유하는 그룹을 식별하는 데 사용
 
 |분류|주요내용|작성|비고|
 |---|---|---|---|

@@ -11,12 +11,12 @@
 : 입력 데이터와 그에 대응하는 출력과의 관계를 학습하는 머신러닝의 한 분야
 - Logistic Regression(로지스틱 회귀) : 이진 분류 문제에 주로 사용되며, 예를 들어 고객이 제품을 구매할지 여부, 이메일이 스팸인지 아닌지 등을 예측하는 데 사용
 
-|분류|주요내용|작성|비고|
-|---|---|---|---|
-|지도학습<br>이진분류|전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
-|지도학습<br>이진분류|accuracy_score<br>classification_report<br>오차 행렬(confusion matrix)|[evaluation](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_evaluation.ipynb)||
-|지도학습<br>다항분류|tree방식으로 모델학습|[Tree](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_Tree.ipynb)||
-|회귀분석 평가|OneHotEncoding<br>Scaling-MinMaxScaler|[scaling/encoding](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_scaling_encoding.ipynb)||
+|주요내용|작성|
+|---|---|
+|전처리-정형화-모델학습-예측-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)|
+|accuracy_score<br>classification_report<br>오차 행렬(confusion matrix)|[evaluation](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_evaluation.ipynb)|
+|지도학습(다항분류), 트리 기반의 분류 모델|[TitanicFromDisaster_Tree](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_Tree.ipynb)|
+|OneHotEncoding<br>Scaling-MinMaxScaler|[scaling/encoding](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_scaling_encoding.ipynb)|
 - Linear Regression(선형 회귀) : 연속형 값을 예측하는 데 사용. 예를 들어, 주택 가격, 온도, 판매량 등과 같은 연속형 값을 예측하는 데 효과적
 
 |주요내용|작성|
@@ -32,17 +32,22 @@
 : 비지도 학습에서는 출력(레이블)이 없는 데이터에서 숨겨진 구조나 패턴을 발견
 - Clustering (클러스터링) : 유사한 특성을 가진 데이터 포인트들을 그룹화하여 서로 다른 클러스터로 나눔. 데이터 내에서 비슷한 패턴이나 특성을 공유하는 그룹을 식별하는 데 사용
 
-|분류|주요내용|작성|비고|
-|---|---|---|---|
-||전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
+|주요내용|작성|
+|---|---|
+|KMeans 클러스터링 알고리즘|[iris_KMeans](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Clusterings/iris_KMeans.ipynb|
 
 #### 3. 모델 개발 및 향상(Development and Enhancement)
 : 모델 개발 및 향상은 모델을 구축하고 성능을 향상시키기 위한 일련의 단계와 과정을 의미합니다.
-- One-Hot Encoding : 범주형 변수를 모델이 이해할 수 있는 형태로 변환하는 과정 중 하나로, 각 범주를 이진 형태로 나타내는 방법
-- Scaling : 입력 특성들의 범위를 조절하여 모델 학습을 개선하거나 수렴 속도를 높이기 위한 과정. 주로 연속형 변수들 간의 크기 차이를 줄이기 위해 사용
-- Evaluation : 모델이 얼마나 효과적으로 작동하는지 평가하는 과정으로, 일반적으로 정확도, 정밀도, 재현율, F1 점수 등의 지표를 사용
-- GridSearchCV : 모델의 하이퍼파라미터를 튜닝하여 최적의 조합을 찾기 위한 과정. 그리드 탐색은 가능한 모든 조합을 시도하여 최적의 모델을 찾음
-- Feature Engineering : 모델 학습에 사용되는 특성들을 조작하거나 새로운 특성을 생성하여 모델의 성능을 향상시키는 과정
+
+|범주|기법들|설명|
+|---|---|---|
+|데이터 전처리(Data Preprocessing)|One-Hot Encoding|범주형 변수를 모델이 이해할 수 있는 형태로 변환하는 과정. 각 범주를 이진 형태로 나타내는 방법|
+| |Scaling|입력 특성들의 범위를 조절하여 모델 학습을 개선하고 수렴 속도를 높이기 위한 과정. 주로 연속형 변수들 간의 크기 차이를 줄이기 위해 사용|
+|모델 평가 및 개선(Model Evaluation and Improvement)|Evaluation|모델이 얼마나 효과적으로 작동하는지 평가하는 과정으로, 다양한 지표를 사용(정확도, 정밀도, 재현율, F1 점수 등)|
+| |GridSearchCV|모델의 하이퍼파라미터를 튜닝하여 최적의 조합을 찾는 과정으로, 그리드 탐색을 수행|
+| |Feature Engineering|모델 학습에 사용되는 특성들을 조작하거나 새로운 특성을 생성하여 모델의 성능을 향상시키는 과정|
+| |Resampling|데이터를 재샘플링하여 데이터의 불균형을 조정하거나 모델을 평가할 때 사용되는 기술|
+
 
 |분류|주요내용|작성|비고|
 |---|---|---|---|

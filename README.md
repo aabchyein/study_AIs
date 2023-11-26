@@ -7,25 +7,31 @@
 |---|---|
 |<img src="https://github.com/aabchyein/study_AIs/assets/132973368/4c11c931-ea18-40d7-aacf-628f09745d57" width="700" height="200">|<img src="https://github.com/aabchyein/study_AIs/assets/132973368/e36b64ae-505d-41de-82f9-04b42521c89a" width="650" height="200">|
 ## 📄데이터 분석 기초
-1. 지도학습
+#### 1. 지도학습
 - Logistic Regression
+
 |분류|주요내용|작성|비고|
 |---|---|---|---|
 |지도학습<br>이진분류|전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
 |지도학습<br>이진분류|accuracy_score<br>classification_report<br>오차 행렬(confusion matrix)|[evaluation](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_evaluation.ipynb)||
 |지도학습<br>다항분류|tree방식으로 모델학습|[Tree](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_Tree.ipynb)||
 |회귀분석 평가|OneHotEncoding<br>Scaling-MinMaxScaler|[scaling/encoding](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_scaling_encoding.ipynb)||
+- Logistic Regression
 
-2. 비지도학습
--
+#### 2. 비지도학습
+- 
 
 |분류|주요내용|작성|비고|
 |---|---|---|---|
 |지도학습<br>이진분류|전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
 
-3. 모델 개발 및 향상(Development and Enhancement)
+#### 3. 모델 개발 및 향상(Development and Enhancement)
 : 모델 개발 및 향상은 모델을 구축하고 성능을 향상시키기 위한 일련의 단계와 과정을 의미합니다.
-
+- One-Hot Encoding : 범주형 변수를 모델이 이해할 수 있는 형태로 변환하는 과정 중 하나로, 각 범주를 이진 형태로 나타내는 방법
+- Scaling : 입력 특성들의 범위를 조절하여 모델 학습을 개선하거나 수렴 속도를 높이기 위한 과정. 주로 연속형 변수들 간의 크기 차이를 줄이기 위해 사용
+- Evaluation : 모델이 얼마나 효과적으로 작동하는지 평가하는 과정으로, 일반적으로 정확도, 정밀도, 재현율, F1 점수 등의 지표를 사용
+- GridSearchCV : 모델의 하이퍼파라미터를 튜닝하여 최적의 조합을 찾기 위한 과정. 그리드 탐색은 가능한 모든 조합을 시도하여 최적의 모델을 찾음
+- Feature Engineering : 모델 학습에 사용되는 특성들을 조작하거나 새로운 특성을 생성하여 모델의 성능을 향상시키는 과정
 
 |분류|주요내용|작성|비고|
 |---|---|---|---|

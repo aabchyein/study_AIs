@@ -16,7 +16,7 @@
 |GridSearchCV|[NSC_BND_M20_GridSearchCV](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/NSC_BND_M20_GridSearchCV.ipynb)|
 |FeatureEngineering|[RecurrenceOfSurgery_FeatureEngineering_quest](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/RecurrenceOfSurgery_FeatureEngineering_quest.ipynb)|
 |전처리-정형화-모델학습-예측-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)|
-|accuracy_score<br>classification_report<br>오차 행렬(confusion matrix)|[evaluation](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_evaluation.ipynb)|
+|accuracy_score<br>classification_report<br>오차 행렬(confusion matrix)|[TitanicFromDisaster_evaluation](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_evaluation.ipynb)|
 |지도학습(다항분류), 트리 기반의 분류 모델|[TitanicFromDisaster_Tree](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_Tree.ipynb)|
 |OneHotEncoding<br>Scaling-MinMaxScaler|[scaling/encoding](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_scaling_encoding.ipynb)|
 |resampling|[recurrenceOfSurgery_MachineLearning_Normal](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/recurrenceOfSurgery_MachineLearning_Normal.ipynb)|
@@ -37,7 +37,7 @@
 
 |주요내용|작성|
 |---|---|
-|KMeans 클러스터링 알고리즘|[iris_KMeans](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Clusterings/iris_KMeans.ipynb|
+|KMeans 클러스터링 알고리즘|[iris_KMeans](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Clusterings/iris_KMeans.ipynb)|
 
 #### 3. 모델 개발 및 향상(Development and Enhancement)
 : 모델 개발 및 향상은 모델을 구축하고 성능을 향상시키기 위한 일련의 단계와 과정을 의미합니다.

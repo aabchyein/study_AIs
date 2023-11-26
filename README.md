@@ -19,9 +19,14 @@
 |회귀분석 평가|OneHotEncoding<br>Scaling-MinMaxScaler|[scaling/encoding](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_scaling_encoding.ipynb)||
 - Linear Regression(선형 회귀) : 연속형 값을 예측하는 데 사용. 예를 들어, 주택 가격, 온도, 판매량 등과 같은 연속형 값을 예측하는 데 효과적
 
-|분류|주요내용|작성|비고|
-|---|---|---|---|
-|지도학습<br>이진분류|전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
+|주요내용|작성|
+|---|---|
+|전처리-모델학습-평가|[BreastCancerWisconsin](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Regressions/BreastCancerWisconsin_Regression.ipynb)|
+|전처리-정형화-모델학습-평가|[BreastCancerWisconsin_Regression_evaluations](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Regressions/BreastCancerWisconsin_Regression_evaluations.ipynb)|
+|py에서 pickle파일 불러오기|[BreastCancerWisconsin_pickle_Regression.py](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Regressions/BreastCancerWisconsin_pickle_Regression.py)|
+|퀘스트|[RecurrenceOfSurgery_regression_quest](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Regressions/RecurrenceOfSurgery_regression_quest.ipynb)|
+|퀘스트|[RecurrenceOfSurgery_regression_quest.py](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Regressions/RecurrenceOfSurgery_regression_quest.py)|
+
 
 #### 2. 비지도학습
 : 비지도 학습에서는 출력(레이블)이 없는 데이터에서 숨겨진 구조나 패턴을 발견
@@ -29,7 +34,7 @@
 
 |분류|주요내용|작성|비고|
 |---|---|---|---|
-|지도학습<br>이진분류|전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
+||전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
 
 #### 3. 모델 개발 및 향상(Development and Enhancement)
 : 모델 개발 및 향상은 모델을 구축하고 성능을 향상시키기 위한 일련의 단계와 과정을 의미합니다.

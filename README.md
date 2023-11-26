@@ -13,10 +13,13 @@
 
 |주요내용|작성|
 |---|---|
+|GridSearchCV|[NSC_BND_M20_GridSearchCV](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/NSC_BND_M20_GridSearchCV.ipynb)|
+|FeatureEngineering|[RecurrenceOfSurgery_FeatureEngineering_quest](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/RecurrenceOfSurgery_FeatureEngineering_quest.ipynb)|
 |전처리-정형화-모델학습-예측-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)|
 |accuracy_score<br>classification_report<br>오차 행렬(confusion matrix)|[evaluation](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_evaluation.ipynb)|
 |지도학습(다항분류), 트리 기반의 분류 모델|[TitanicFromDisaster_Tree](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_Tree.ipynb)|
 |OneHotEncoding<br>Scaling-MinMaxScaler|[scaling/encoding](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster_scaling_encoding.ipynb)|
+|resampling|[recurrenceOfSurgery_MachineLearning_Normal](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/recurrenceOfSurgery_MachineLearning_Normal.ipynb)|
 - Linear Regression(선형 회귀) : 연속형 값을 예측하는 데 사용. 예를 들어, 주택 가격, 온도, 판매량 등과 같은 연속형 값을 예측하는 데 효과적
 
 |주요내용|작성|
@@ -47,8 +50,3 @@
 | |GridSearchCV|모델의 하이퍼파라미터를 튜닝하여 최적의 조합을 찾는 과정으로, 그리드 탐색을 수행|
 | |Feature Engineering|모델 학습에 사용되는 특성들을 조작하거나 새로운 특성을 생성하여 모델의 성능을 향상시키는 과정|
 | |Resampling|데이터를 재샘플링하여 데이터의 불균형을 조정하거나 모델을 평가할 때 사용되는 기술|
-
-
-|분류|주요내용|작성|비고|
-|---|---|---|---|
-|지도학습<br>이진분류|전처리-정형화-모델학습-평가|[TitanicFromDisaster](https://github.com/aabchyein/study_AIs/blob/main/datasets/codes/MLs/Classifications/TitanicFromDisaster.ipynb)||
